@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-HolaMundo", "01-HolaMundo\01-HolaMundo.csproj", "{4A7F9319-F5AC-4100-AECD-B1EE26F418D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Comentarios", "02-Comentarios\02-Comentarios.csproj", "{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A7F9319-F5AC-4100-AECD-B1EE26F418D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7F9319-F5AC-4100-AECD-B1EE26F418D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7F9319-F5AC-4100-AECD-B1EE26F418D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7F9319-F5AC-4100-AECD-B1EE26F418D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
