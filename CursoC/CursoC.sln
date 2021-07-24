@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-HolaMundo", "01-HolaMund
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Comentarios", "02-Comentarios\02-Comentarios.csproj", "{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Variables", "03-Variables\03-Variables.csproj", "{32480AD4-FBBC-4682-B8B1-7DD52DED6973}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75EC6CCF-18C3-4CEA-869E-E6CC9468BD9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32480AD4-FBBC-4682-B8B1-7DD52DED6973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32480AD4-FBBC-4682-B8B1-7DD52DED6973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32480AD4-FBBC-4682-B8B1-7DD52DED6973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32480AD4-FBBC-4682-B8B1-7DD52DED6973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
