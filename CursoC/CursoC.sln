@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Metodos2", "05-Metodos2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-If", "05-If\06-If.csproj", "{EF26072A-0BED-4CBA-93C7-23F3A64574A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Ciclos", "07-Ciclos\07-Ciclos.csproj", "{EE5E9257-89A7-449B-B8EA-80D8F4AB472D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-Excepciones", "08-Excepciones\08-Excepciones.csproj", "{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{EF26072A-0BED-4CBA-93C7-23F3A64574A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF26072A-0BED-4CBA-93C7-23F3A64574A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF26072A-0BED-4CBA-93C7-23F3A64574A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5E9257-89A7-449B-B8EA-80D8F4AB472D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5E9257-89A7-449B-B8EA-80D8F4AB472D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5E9257-89A7-449B-B8EA-80D8F4AB472D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5E9257-89A7-449B-B8EA-80D8F4AB472D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
