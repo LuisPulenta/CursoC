@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-Ciclos", "07-Ciclos\07-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-Excepciones", "08-Excepciones\08-Excepciones.csproj", "{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-Clases", "09-Clases\09-Clases.csproj", "{7D3859B8-F2CD-4491-B4AF-270A9208190D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34546F39-2218-475A-A55C-4A24ACB66DFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D1D105-982B-4639-9AD4-FA9DD1D13FD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3859B8-F2CD-4491-B4AF-270A9208190D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3859B8-F2CD-4491-B4AF-270A9208190D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3859B8-F2CD-4491-B4AF-270A9208190D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3859B8-F2CD-4491-B4AF-270A9208190D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
