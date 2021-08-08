@@ -1,23 +1,12 @@
-﻿using System;
-namespace _15_Herencia
+﻿namespace _15_Herencia
 {
-    class DynamicFile:MultimediaFile
+    class DynamicFile : MultimediaFile
     {
-        public string duracion;
-
-        public void Reproducir()
+        public override string ObtenerTipo()
         {
-            Console.WriteLine("Reproducir");
-        }
-
-        public void Pausar()
-        {
-            Console.WriteLine("Pausar");
-        }
-
-        public void Detener()
-        {
-            Console.WriteLine("Detener");
+            string tArchivo = tipoArchivo;
+            CalcularTamanio();
+            return "Archivo Dinámico";
         }
     }
 }

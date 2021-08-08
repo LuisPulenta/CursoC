@@ -6,29 +6,25 @@ namespace _15_Herencia
     {
         static void Main()
         {
-            Console.WriteLine("----------------------------");
-            MultimediaFile mFile = new MultimediaFile();
-            mFile.DesplegarInformacion();
-            var fecha = mFile.fechaCreacion;
-            
+            //Console.WriteLine("----------------------------");
+            //MultimediaFile multimedia;
+            //DynamicFile dFile = new DynamicFile();
+            //StaticFile sFile = new StaticFile();
+            //OtherFile oFile = new OtherFile();
 
-            DynamicFile dFile = new DynamicFile();
-            dFile.DesplegarInformacion();
-            var fecha2 = dFile.fechaCreacion;
-            dFile.Reproducir();
-            dFile.Pausar();
-            dFile.Detener();
-            var duracion = dFile.duracion;
-            
+            //multimedia = dFile;
+            //Console.WriteLine(multimedia.ObtenerTipo());
+            //multimedia = sFile;
+            //Console.WriteLine(multimedia.ObtenerTipo());
+            //multimedia = oFile;
+            //Console.WriteLine(multimedia.ObtenerTipo());
 
-            StaticFile sFile = new StaticFile();
-            sFile.DesplegarInformacion();
-            var fecha3 = sFile.fechaCreacion;
-            sFile.Editar();
+            string prueba = "Esta es una demo de los métodos de extensión";
+            MetodosExtension.ContarPalabras(prueba);
 
-            //Reexaminando la clase System.Object
-            mFile.ToString();
-            sFile.GetType();
+            int cantPalabras = prueba.ContarPalabras();
+
+            Console.WriteLine(cantPalabras);
 
             Console.ReadLine();
         }

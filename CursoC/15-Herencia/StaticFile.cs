@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace _15_Herencia
+﻿namespace _15_Herencia
 {
-    class StaticFile:MultimediaFile
+    class StaticFile : MultimediaFile
     {
-        public void Editar()
+        public override string ObtenerTipo()
         {
-            Console.WriteLine("Editando...");
+            return "Archivo Estático";
         }
     }
 }

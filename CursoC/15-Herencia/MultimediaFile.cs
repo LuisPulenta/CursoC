@@ -1,18 +1,16 @@
-﻿using System;
-
-namespace _15_Herencia
+﻿namespace _15_Herencia
 {
     class MultimediaFile
     {
-        public string fechaCreacion;
-        string fechaModificacion;
-        string nombre;
-        string tipoElemento;
-
-        public void DesplegarInformacion()
+        protected string tipoArchivo;
+        public virtual string ObtenerTipo()
         {
-            string informacion = fechaCreacion + " " + fechaModificacion + " " + nombre + " " + tipoElemento;
-            Console.WriteLine(informacion);
+            string tArchivo = tipoArchivo;
+            CalcularTamanio();
+            return "Archivo Multimedia";
+        }
+        protected void CalcularTamanio()
+        {
         }
     }
 }

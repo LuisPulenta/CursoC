@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DynamicFile.cs" />
+    <Compile Include="MetodosExtension.cs" />
     <Compile Include="MultimediaFile.cs" />
+    <Compile Include="OtherFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticFile.cs" />
