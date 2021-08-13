@@ -1,6 +1,7 @@
 ﻿namespace _16_InterfasesAbstractas
 {
-    class Circulo:IFigura
+   
+    sealed class Circulo: FiguraBase,IFigura,IRenderizador   
     {
         int radio;
 
@@ -9,7 +10,27 @@
             throw new System.NotImplementedException();
         }
 
-        public void Dibujar()
+        public double CalcularArea()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        void IFigura.Dibujar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        void IRenderizador.Dibujar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Renderizar()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public override void ObtenerTop()
         {
             throw new System.NotImplementedException();
         }

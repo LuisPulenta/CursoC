@@ -1,8 +1,8 @@
 ﻿namespace _16_InterfasesAbstractas
 {
-    interface IFigura:ICalculador
+    interface IRenderizador
     {
+        void Renderizar();
         void Dibujar();
-        int Calcular(int x, int y);
     }
 }

@@ -12,6 +12,11 @@
             throw new System.NotImplementedException();
         }
 
+        public double CalcularArea()
+        {
+            throw new System.NotImplementedException();
+        }
+
         public void Dibujar()
         {
             throw new System.NotImplementedException();

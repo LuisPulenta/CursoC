@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7DFCB566-79F8-4954-A566-9ABEFF2096C2}</ProjectGuid>
+    <ProjectGuid>{1306F39E-D6EA-41F5-B480-F97CCF0B7969}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_16_InterfasesAbstractas</RootNamespace>
-    <AssemblyName>16-InterfasesAbstractas</AssemblyName>
+    <RootNamespace>_17_AdministracionRecursos</RootNamespace>
+    <AssemblyName>17-AdministracionRecursos</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Circulo.cs" />
-    <Compile Include="FiguraBase.cs" />
-    <Compile Include="ICalculador.cs" />
-    <Compile Include="IFigura.cs" />
-    <Compile Include="IRenderizador.cs" />
-    <Compile Include="Linea.cs" />
+    <Compile Include="FileManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-Herencia", "15-Herencia\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-InterfasesAbstractas", "16-InterfasesAbstractas\16-InterfasesAbstractas.csproj", "{7DFCB566-79F8-4954-A566-9ABEFF2096C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-AdministracionRecursos", "17-AdministracionRecursos\17-AdministracionRecursos.csproj", "{1306F39E-D6EA-41F5-B480-F97CCF0B7969}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{7DFCB566-79F8-4954-A566-9ABEFF2096C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFCB566-79F8-4954-A566-9ABEFF2096C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFCB566-79F8-4954-A566-9ABEFF2096C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1306F39E-D6EA-41F5-B480-F97CCF0B7969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1306F39E-D6EA-41F5-B480-F97CCF0B7969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1306F39E-D6EA-41F5-B480-F97CCF0B7969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1306F39E-D6EA-41F5-B480-F97CCF0B7969}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
