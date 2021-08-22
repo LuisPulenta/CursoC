@@ -50,6 +50,37 @@ namespace _19_Indexadores
             Console.WriteLine("-----------XOR----------");
             Console.WriteLine("binDato1 XOR binDato2= " + Convert.ToString(binDato1 ^ binDato2, 2));
 
+            //Combinando operadores
+            Console.WriteLine("-----------Combinando operadores----------");
+            var uno = 0b0_00000001;
+            var desplazamiento = uno << 6; // <-- 01000000
+            uint binDatoA = 0b0_11000000;
+            uint binDatoB = 0b0_10000000;
+            var resultadoA = (binDatoA & desplazamiento) != 0;
+            var resultadoB = (binDatoB & desplazamiento) != 0;
+            Console.WriteLine("binDatoA tiene en el bit 6= " + resultadoA.ToString());
+            Console.WriteLine("binDatoB tiene en el bit 6= " + resultadoB.ToString());
+            Console.WriteLine("-----------Otra forma mas directa----------");
+            var resultadoC = (binDatoA & (1<<6)) != 0;
+            Console.WriteLine("binDatoA tiene en el bit 6= " + resultadoA.ToString());
+
+            Console.WriteLine("-----------Uso de indexadores----------");
+            int binDatoC = 0b0_1111111_11111111_11111111_11101011;
+            Console.WriteLine("binDatoC= " + Convert.ToString(binDatoC, 2));
+
+            Bits bits = new Bits(binDatoC);
+            bool datoPos0 = bits[0];
+            bool datoPos1 = bits[1];
+            bool datoPos2 = bits[2];
+            bool datoPos3 = bits[3];
+            Console.WriteLine("datoPos0= " + datoPos0);
+            Console.WriteLine("datoPos1= " + datoPos1);
+            Console.WriteLine("datoPos2= " + datoPos2);
+            Console.WriteLine("datoPos3= " + datoPos3);
+
+            bits[0] = false;
+            Console.WriteLine("bits[0]= " + bits[0]);
+
             Console.ReadLine();
         }
     }
